@@ -1,6 +1,6 @@
 FROM python:3.6-slim-stretch
 
-ENV UNIT_VERSION 1.1
+ENV UNIT_VERSION 1.2
 
 RUN apt-get update \
     && apt-get install --no-install-recommends --no-install-suggests -y \
