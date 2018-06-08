@@ -1,6 +1,6 @@
 FROM python:3.6-alpine3.7
 
-ENV UNIT_VERSION 1.1
+ENV UNIT_VERSION 1.2
 
 RUN apk update \
     && apk add --no-cache --virtual .build-deps make gcc libc-dev \
